@@ -309,17 +309,16 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
     .social-link-icon {
         fill: #f4f4fd;
     }
 
-.social-link:hover {
-    background-color: #404bbf;
-}
-.social-link:focus {
+.social-link:hover,
+.social-link:active
+{
     background-color: #404bbf;
 }
 
