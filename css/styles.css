@@ -316,7 +316,10 @@ text-align: center;
         fill: #f4f4fd;
     }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover {
+    background-color: #404bbf;
+}
+.social-link:focus {
     background-color: #404bbf;
 }
 
